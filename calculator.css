@@ -45,7 +45,7 @@ input.form-control:focus {
 
 .bg-red {
     background: linear-gradient(to top, #000000 0%, #ffffff 100%);
-    width: 276px;
+    max-width: 276px;
     border-radius: 15px;
     padding: 20px;
     box-shadow: 20px 20px 50px grey;
@@ -80,7 +80,7 @@ input.form-control:focus {
     color: black;
     font-weight: bold;
     transition: transform 250ms ease-out;
-
+    border: none;
 }
 
 
@@ -97,4 +97,5 @@ input.form-control:focus {
     text-align: left;
     font-weight: bold;
     border-radius: 10px;
+    border: none;
 }
